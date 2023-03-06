@@ -3,4 +3,8 @@ name: Reactor Demo
 jobs:
   build-job:
     name: Build Java Project
-    
+    steps:
+      - run: java -version
+        name: Check Java Version
+        
+
