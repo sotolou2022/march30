@@ -2,9 +2,10 @@ on: push
 name: Reactor Demo
 jobs:
   build-job:
+    runs-on: ubuntu-latest
     name: Build Java Project
     steps:
       - run: java -version
         name: Check Java Version
-        
+
 
