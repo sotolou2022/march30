@@ -1,2 +1,6 @@
 on: push
 name: Reactor Demo
+jobs:
+  build-job:
+    name: Build Java Project
+    
